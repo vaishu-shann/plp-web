@@ -1,0 +1,34 @@
+
+import styled from 'styled-components';
+
+export const AboutDesc = styled.div`
+  color: #fff;
+  padding: 80px 0;
+  background:rgb(18, 21, 27);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const Heading = styled.h1`
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color:#f7f8fa;
+`;
+
+
+export const Subtitle = styled.p`
+  max-width: 1200px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #a9b3c1;
+  text-align: center;
+`;
+
+export const TeamSection = styled.div`
+max-width: 1200px;
+`;
