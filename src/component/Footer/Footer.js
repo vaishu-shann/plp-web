@@ -27,19 +27,21 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
+import LogoImage from "../../assets/images/logo-text.png";
 
 function Footer() {
   return (
     <FooterContainer>
+      <div className='footer-flex'>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Join our exclusive membership 
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
-        <Form>
+        <FooterSubText>You can unsubscribe at any time unsubscribe at any time unsubscribe at  any time There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</FooterSubText>
+        {/* <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
-        </Form>
+        </Form> */}
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
@@ -47,15 +49,14 @@ function Footer() {
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+
           </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
             <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
+
             <FooterLink to='/'>Sponsorships</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
@@ -64,25 +65,18 @@ function Footer() {
             <FooterLinkTitle>Videos</FooterLinkTitle>
             <FooterLink to='/'>Submit Video</FooterLink>
             <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+
           </FooterLinkItems>
-          <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
-          </FooterLinkItems>
+
         </FooterLinksWrapper>
       </FooterLinksContainer>
+      </div>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+          <img src={LogoImage} alt="" className='footer-logo' />
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>PLPDATA © 2020</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />

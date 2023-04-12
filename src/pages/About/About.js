@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import AboutUs from '../../component/About/aboutBanner';
 import DescriptionAbout from '../../component/About/description';
 import LifeAtPlp from '../../component/About/lifeAt';
+import CTASection from '../../component/About/ctaSection';
 
 function About(props) {
     const { pathname } = useLocation();
@@ -18,6 +19,7 @@ function About(props) {
             <AboutUs/>
             <LifeAtPlp/>
             <DescriptionAbout/> 
+            <CTASection/>
         </div>
     );
 }

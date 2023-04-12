@@ -9,6 +9,14 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+  }
 `;
 
 export const FooterSubscription = styled.section`
@@ -17,58 +25,34 @@ export const FooterSubscription = styled.section`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 24px;
-  padding: 24px;
+  padding:0 24px;
   color: #fff;
 `;
 
 export const FooterSubHeading = styled.p`
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  margin-bottom: 24px;
-  font-size: 24px;
+    margin-bottom: 14px;
+    font-size: 24px;
+    font-weight: 600;
 `;
 
 export const FooterSubText = styled.p`
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 500px;
+  letter-spacing: 0.3px;
+line-height: 26px;
 `;
 
-export const Form = styled.form`
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
-    width: 80%;
-  }
-`;
-
-export const FormInput = styled.input`
-  padding: 10px 20px;
-  border-radius: 2px;
-  margin-right: 10px;
-  outline: none;
-  border: none;
-  font-size: 16px;
-  border: 1px solid #fff;
-
-  &::placeholder {
-    color: #242424;
-  }
-
-  @media screen and (max-width: 820px) {
-    width: 100%;
-    margin: 0 0 16px 0;
-  }
-`;
 
 export const FooterLinksContainer = styled.div`
   width: 100%;
   max-width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
@@ -86,7 +70,7 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 16px;
   text-align: left;
   width: 160px;
@@ -126,8 +110,11 @@ export const SocialMediaWrap = styled.div`
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
-
+  margin: 10px auto 0 auto;
+.footer-logo{
+  width: 238px;
+    height: 98px;
+}
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
