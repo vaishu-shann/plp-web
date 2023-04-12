@@ -46,25 +46,24 @@ function Footer() {
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
+            <FooterLinkTitle to="/">Home</FooterLinkTitle>
+            <FooterLink to='/'>How it works</FooterLink>
             <FooterLink to='/'>Testimonials</FooterLink>
 
           </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
+            <FooterLinkTitle to="/services">Service</FooterLinkTitle>
 
-            <FooterLink to='/'>Sponsorships</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
+            <FooterLinkTitle to='/products'>About US</FooterLinkTitle>
+            <FooterLink to='/'>Contact</FooterLink>
+            <FooterLink to='/'>Terms and Conditions</FooterLink>
+ 
 
           </FooterLinkItems>
 
