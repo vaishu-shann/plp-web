@@ -2,9 +2,10 @@ import React from 'react';
 import HomeBanner from '../../component/Home/homeBanner';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import ServiceComp from '../../component/Home/ourService';
 import MarqueeSection from '../../component/Home/Marquee';
 import Testimonial from '../../component/Home/Testimonial';
+import AboutHome from '../../component/Home/aboutGlimpes';
+import Statistic from '../../component/Home/Statistics';
 
 function Home(props) {
     const { pathname } = useLocation();
@@ -19,7 +20,8 @@ function Home(props) {
     return (
         <div>
             <HomeBanner/>
-            <ServiceComp/>
+            <Statistic/>
+            <AboutHome/>
             <MarqueeSection/>
             <Testimonial/>
         </div>

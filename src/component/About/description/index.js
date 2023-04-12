@@ -5,7 +5,7 @@ import { AboutDesc, Heading, Subtitle,TeamSection } from "./desc.element";
 function DescriptionAbout(props) {
   return (
     <AboutDesc>
-      <Heading>We are xyz!</Heading>
+      {/* <Heading>We are xyz!</Heading>
       <Subtitle>
         A global software engineering service provider offering Software
         Architecture, Design, Data Engineering, Development, Quality
@@ -30,7 +30,7 @@ function DescriptionAbout(props) {
         team of 180+ Software Engineers and we have 30+ clients from different
         parts of the world such as the US, Germany, UK, China, Japan, Australia,
         Hong Kong, Singapore, and Ireland.
-      </Subtitle>
+      </Subtitle> */}
 
       <TeamSection>
         <OurTeam/>

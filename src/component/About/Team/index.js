@@ -67,14 +67,6 @@ function OurTeam(props) {
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg"
             className="img-circle"
           />
-          <Headingsmall>User456</Headingsmall>
-          <Subtitle>Head, Healthcare Technology Services</Subtitle>
-        </div>
-        <div className="singleCard">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg"
-            className="img-circle"
-          />
           <Headingsmall>User789</Headingsmall>
           <Subtitle>Head, Research, Data, Analytics Services</Subtitle>
         </div>

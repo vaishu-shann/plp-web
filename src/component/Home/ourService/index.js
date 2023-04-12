@@ -6,18 +6,13 @@ import { Button } from "../../../globalStyles";
 function ServiceComp(props) {
   return (
     <ServiceSec>
-      <Heading>Marketing Agency</Heading>
-      <Subtitle>
-        Ultra helped me increase my revenue by over 3X in less than 3 months!
-      </Subtitle>
+      <Heading>Why Us?</Heading>
 
       <CardList>
         <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        <ServiceCard  />
+        <ServiceCard  />
       </CardList>
-
-      <Button>Know more</Button>
     </ServiceSec>
   );
 }

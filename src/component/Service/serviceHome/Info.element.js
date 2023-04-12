@@ -1,10 +1,9 @@
-
 import styled from 'styled-components';
 
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background:rgb(18, 21, 27) ;
+  background:rgb(28, 32, 40) ;
 `;
 
 export const InfoRow = styled.div`
@@ -32,9 +31,10 @@ export const InfoColumn = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  /* max-width: 540px; */
   padding-top: 0;
   padding-bottom: 60px;
+  margin-left: 50px;
 
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ServiceSec = styled.div`
   color: #fff;
   padding: 80px 0;
-  background: #1c2028;
+  background: rgb(18, 21, 27);
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,11 +1,13 @@
 import React from 'react';
-import HomeBanner from '../../component/Home/homeBanner';
 import PartnerSec from '../../component/Service/PartnerSec';
+import ServiceComp from '../../component/Home/ourService';
+import ServiceBanner from '../../component/Service/serviceHome';
 
 function Service(props) {
     return (
         <div>
-            <HomeBanner/>
+            <ServiceBanner/>
+            <ServiceComp/>
             <PartnerSec/>
         </div>
     );
