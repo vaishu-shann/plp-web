@@ -14,11 +14,52 @@ import {
     Img
   } from './Info.element';
 
+
 function ServiceBanner(props) {
     return (
         <>
         <InfoSec>
           <Container>
+            <InfoRow>
+              <InfoColumn>
+                <ImgWrapper>
+                  <Img src={HomeImage} alt="" />
+                </ImgWrapper>
+              </InfoColumn>
+              <InfoColumn>
+                <TextWrapper>
+                  {/* <TopLine >{topLine}</TopLine> */}
+                  <Heading >Marketing Agency</Heading>
+                  <Subtitle>Lead Generation Specialist for Online Businesses Generation Specialist for Online Businesses Lead  Specialist for Online Businesses</Subtitle>
+                  <Link to='/sign-up'>
+                    <Button big fontBig >
+                    Get Started
+                    </Button>
+                  </Link>
+                </TextWrapper>
+              </InfoColumn>
+            </InfoRow>
+
+            <InfoRow>             
+              <InfoColumn>
+                <TextWrapper>
+                  {/* <TopLine >{topLine}</TopLine> */}
+                  <Heading >Marketing Agency</Heading>
+                  <Subtitle>Lead Generation Specialist for Online Businesses Generation Specialist for Online Businesses Lead  Specialist for Online Businesses</Subtitle>
+                  <Link to='/sign-up'>
+                    <Button big fontBig >
+                    Get Started
+                    </Button>
+                  </Link>
+                </TextWrapper>
+              </InfoColumn>
+              <InfoColumn>
+                <ImgWrapper>
+                  <Img src={HomeImage} alt="" />
+                </ImgWrapper>
+              </InfoColumn>
+            </InfoRow>
+
             <InfoRow>
               <InfoColumn>
                 <ImgWrapper>

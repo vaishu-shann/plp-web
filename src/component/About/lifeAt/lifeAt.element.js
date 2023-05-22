@@ -16,7 +16,7 @@ export const Heading = styled.h1`
 `;
 
 export const Options = styled.div`
-max-width: 1300px;
+max-width: 1100px;
 width: 100%;
 margin: auto;
 display: flex;

@@ -21,7 +21,7 @@ export const Heading = styled.h1`
 
 
 export const Subtitle = styled.p`
-  max-width: 1200px;
+  max-width: 1100px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 28px;
@@ -30,5 +30,5 @@ export const Subtitle = styled.p`
 `;
 
 export const TeamSection = styled.div`
-max-width: 1200px;
+max-width: 1100px;
 `;

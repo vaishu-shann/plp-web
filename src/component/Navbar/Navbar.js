@@ -70,11 +70,11 @@ function Navbar() {
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
-              <NavItem>
+              {/* <NavItem> */}
                 {/* <NavLinks to="/" onClick={closeMobileMenu} >
                   Home
                 </NavLinks> */}
-                <div className="Header-text">
+                {/* <div className="Header-text">
                   <NavLinks to="/" onClick={closeMobileMenu}>
                     <span
                       className={
@@ -86,8 +86,8 @@ function Navbar() {
                     </span>
                   </NavLinks>
                 </div>
-              </NavItem>
-              <NavItem>
+              </NavItem> */}
+              {/* <NavItem>
                 <div className="Header-text">
                   <NavLinks to="/services" onClick={closeMobileMenu}>
                     <span
@@ -114,19 +114,19 @@ function Navbar() {
                     </span>
                   </NavLinks>
                 </div>
-              </NavItem>
+              </NavItem> */}
               <NavItemBtn>
-                {/* {button ? (
+                {button ? (
                   <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
+                    <Button big fontBig primary>Get Started</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to='/sign-up'>
-                    <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
+                    <Button onClick={closeMobileMenu} big fontBig primary>
+             Get Started
                     </Button>
                   </NavBtnLink>
-                )} */}
+                )}
               </NavItemBtn>
             </NavMenu>
           </NavbarContainer>

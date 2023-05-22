@@ -20,7 +20,7 @@ text-align: center;
 `;
 
 export const CardList = styled.div`
-max-width:1200px;
+max-width:1100px;
 display:flex;
 flex-wrap: wrap;
 justify-content: space-between;

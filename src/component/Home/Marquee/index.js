@@ -1,6 +1,7 @@
 import Marquee from "react-fast-marquee";
 import React from "react";
 import { Heading, MarqueeSec } from "./marque.element";
+import Statistic from "../Statistics";
 // import "../../styles.css"
 
 function MarqueeSection(props) {

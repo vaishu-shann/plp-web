@@ -32,6 +32,6 @@ export const CardList = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 32px auto 15px;
 `;

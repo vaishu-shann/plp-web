@@ -23,10 +23,10 @@ function HomeBanner(props) {
               <InfoColumn>
                 <TextWrapper>
                   {/* <TopLine >{topLine}</TopLine> */}
-                  <Heading >Marketing Agency</Heading>
-                  <Subtitle>Lead Generation Specialist for Online Businesses Generation Specialist for Online Businesses Lead  Specialist for Online Businesses</Subtitle>
+                  <Heading >Unlock the Power of Data with Our Comprehensive Data Services</Heading>
+                  <Subtitle>In today's data-driven world, having the right data services partner can make all the difference. At PLP Data, we specialize in providing comprehensive data services that help you unlock the full potential of your data. Whether you need data warehousing, data lakes, or a data strategy, we have the expertise and experience to deliver the right solution for your needs.</Subtitle>
                   <Link to='/sign-up'>
-                    <Button big fontBig >
+                    <Button big fontBig primary >
                     Get Started
                     </Button>
                   </Link>

@@ -9,13 +9,24 @@ function AboutHome(props) {
       <img src={LogoImage} alt="" className="gif-img" />
       <AboutDescription>
         <div className="Head-text">our company</div>
-        <div className="Title-text">-- years of driving <br/><span style={{color:'rgb(4, 103, 251)'}}>Digital Excellence.</span></div>
-        <div className="description">We develop mission-critical business applications by leveraging the power of cutting-edge digital technologies like IoT, RPA, AI, Chatbot, and Cloud to develop business-specific solutions that help enterprises transform their conventional processes impacting their efficiency, productivity and ensure rapid growth, RoI.
+        <div className="Title-text">At PLP Data</div>
+        <div className="description">We are committed to providing high-quality solutions to our clients. Our team of experienced professionals are dedicated to delivering solutions that meet our clients' needs and exceed their expectations. Here are some reasons why you should choose us: 
+<ul>
+  <li>Over 7 decades of combined 	experience - Leadership Team</li>
+  <li>Deep technical expertise in 	various technologies and domains</li>
+  <li>Proven track record of delivering 	successful solutions</li>
+  <li>Focus on critical thinking, design 	thinking, and customer needs</li>
+  <li>Commitment to quality, security, and customer satisfaction</li>
+</ul>
+
+
+
 </div>
       </AboutDescription>
       </div>
     </AboutSec>
   );
 }
+
 
 export default AboutHome;

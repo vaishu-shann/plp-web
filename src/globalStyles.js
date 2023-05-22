@@ -12,11 +12,10 @@ const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+
 
   @media screen and (max-width: 991px) {
     padding-right: 30px;
@@ -26,7 +25,7 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};
+  background: ${({ primary }) => (primary ? 'rgb(75, 89, 247)' : 'rgb(75, 89, 247)')};
   white-space: nowrap;
   padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
   color: #fff;
@@ -38,7 +37,7 @@ export const Button = styled.button`
   &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    background-color: ${({ primary }) => (primary ? '#0467FB' : '#4B59F7')};
+    background-color: ${({ primary }) => (primary ? 'rgb(4, 103, 251)' : 'rgb(4, 103, 251)')};
   }
 
   @media screen and (max-width: 960px) {

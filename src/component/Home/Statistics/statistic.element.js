@@ -5,7 +5,7 @@ export const Stats = styled.div`
     padding: 50px 0px 120px;
     background: rgb(18, 21, 27);
     .stats-cont{
-        max-width: 1300px;
+        max-width: 1100px;
         width: 100%;
         margin: auto;
         display: flex;

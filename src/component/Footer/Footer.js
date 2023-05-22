@@ -1,12 +1,12 @@
-import React from 'react';
-import { Button } from '../../globalStyles';
+import React from "react";
+import { Button } from "../../globalStyles";
 import {
   FaFacebook,
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
-} from 'react-icons/fa';
+  FaLinkedin,
+} from "react-icons/fa";
 import {
   FooterContainer,
   FooterSubscription,
@@ -25,83 +25,62 @@ import {
   SocialIcon,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
-} from './Footer.elements';
+  SocialIconLink,
+} from "./Footer.elements";
 import LogoImage from "../../assets/images/logo-text.png";
 
 function Footer() {
   return (
     <FooterContainer>
-      <div className='footer-flex'>
-      <FooterSubscription>
-        <FooterSubHeading>
-          Join our exclusive membership 
-        </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time unsubscribe at any time unsubscribe at  any time There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</FooterSubText>
-        {/* <Form>
-          <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
-        </Form> */}
-      </FooterSubscription>
-      <FooterLinksContainer>
-        <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle to="/">Home</FooterLinkTitle>
-            <FooterLink to='/'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-
-          </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle to="/services">Service</FooterLinkTitle>
-
-          </FooterLinkItems>
-        </FooterLinksWrapper>
-        <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle to='/products'>About US</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Terms and Conditions</FooterLink>
- 
-
-          </FooterLinkItems>
-
-        </FooterLinksWrapper>
-      </FooterLinksContainer>
-      </div>
-      <SocialMedia>
-        <SocialMediaWrap>
-          <SocialLogo to='/'>
-          <img src={LogoImage} alt="" className='footer-logo' />
+      <div className="footer-flex">
+      <SocialMediaWrap>
+          <SocialLogo to="/">
+            <img src={LogoImage} alt="" className="footer-logo" />
           </SocialLogo>
-          <WebsiteRights>PLPDATA © 2020</WebsiteRights>
+
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                "//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
               }
-              rel='noopener noreferrer'
-              target='_blank'
-              aria-label='Youtube'
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Youtube"
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
         </SocialMediaWrap>
-      </SocialMedia>
+        <FooterSubscription>
+          {/* <FooterSubHeading>
+          Join our exclusive membership 
+        </FooterSubHeading> */}
+          <FooterSubText>
+            If you're looking for a reliable and experienced partner for your
+            Banking and Financial Services needs, look no further than PLP Data.
+            Contact us today to learn more about our services and how we can
+            help you transform your business.
+          </FooterSubText>
+          {/* <Form>
+          <FormInput name='email' type='email' placeholder='Your Email' />
+          <Button fontBig>Subscribe</Button>
+        </Form> */}
+        </FooterSubscription>
+
+      </div>
+
     </FooterContainer>
   );
 }

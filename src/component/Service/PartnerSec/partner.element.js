@@ -18,7 +18,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width:1200px;
+  max-width:1100px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
@@ -27,7 +27,7 @@ export const Subtitle = styled.p`
 
 
 export const PartnerCard = styled.div`
-max-width: 1200px;
+max-width: 1100px;
 margin:25px auto;
 display: flex;
     flex-wrap: wrap;

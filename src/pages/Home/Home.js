@@ -6,6 +6,7 @@ import MarqueeSection from '../../component/Home/Marquee';
 import Testimonial from '../../component/Home/Testimonial';
 import AboutHome from '../../component/Home/aboutGlimpes';
 import Statistic from '../../component/Home/Statistics';
+import AboutUs from '../../component/About/aboutBanner';
 
 function Home(props) {
     const { pathname } = useLocation();
@@ -20,10 +21,12 @@ function Home(props) {
     return (
         <div>
             <HomeBanner/>
-            <Statistic/>
+            {/*  */}
             <AboutHome/>
-            <MarqueeSection/>
-            <Testimonial/>
+            <AboutUs/>
+            {/* <MarqueeSection/> */}
+            {/* <Statistic/> */}
+            {/* <Testimonial/> */}
         </div>
     );
 }
